@@ -4,7 +4,7 @@
   --textColor: rgb(233, 233, 233);
   /* --mainTextColor: rgb(68, 134, 68); */
   /* --mainTextColor: rgb(153, 144, 236);; */
-  --mainTextColor: rgb(82, 190, 154);;
+  --mainTextColor: rgb(82, 190, 154);
   --backColor: rgba(0, 0, 0, 0.281);
   --borderRadius : 20px;
   ----borderSize: 2px;
@@ -31,9 +31,6 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  -webkit-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
 }
 
 button.gotop {
@@ -179,7 +176,7 @@ nav ul li a {
   letter-spacing: 0.8px;
 }
 
-.head-con button {
+.head-con a#viewCV {
   width: fit-content;
   padding: 10px 20px;
   margin-top: 10px;
@@ -325,7 +322,7 @@ nav ul li a {
 .edu-item p:nth-child(4),
 .edu-item p:nth-child(5) {
   font-size: 12px;
-  color: rgb(134, 219, 141);
+  color: rgb(233, 233, 233);
 }
 
 /* -------------------------------- Skills -------------------- */
